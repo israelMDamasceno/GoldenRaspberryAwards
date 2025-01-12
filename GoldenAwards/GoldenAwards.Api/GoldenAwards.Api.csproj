@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="CsvFile\movielist .csv" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.4.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GoldenAwards.Application\GoldenAwards.Application.csproj" />
+    <ProjectReference Include="..\GoldenAwards.DIFramework\GoldenAwards.DIFramework.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="CsvFile\" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<InternalsVisibleTo Include="GoldenAwards.Api.TestIntegration" />
+	</ItemGroup>
+
+</Project>

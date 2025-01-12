@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoldenAwards.Api", "GoldenAwards.Api\GoldenAwards.Api.csproj", "{A30AAF22-FA0C-4F2C-A3F0-695FB3875831}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoldenAwards.Application", "GoldenAwards.Application\GoldenAwards.Application.csproj", "{F1CCFEEA-37B8-45AA-9E3B-35D332B58E12}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoldenAwards.Domain", "GoldenAwards.Domain\GoldenAwards.Domain.csproj", "{EE388B8B-3DC5-4B8D-A7AE-0317352A7662}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoldenAwards.Infrastructure", "GoldenAwards.Infrastructure\GoldenAwards.Infrastructure.csproj", "{CF3C0FCB-54B4-4677-9CF9-9CE1BA544BB9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoldenAwards.DIFramework", "GoldenAwards.DIFramework\GoldenAwards.DIFramework.csproj", "{56EBBF80-D525-457B-9C2B-F3945019C6B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldenAwards.Api.TestIntegration", "GoldenAwards.Api.TestIntegration\GoldenAwards.Api.TestIntegration.csproj", "{E02296CC-4896-4CE8-8C8D-7900620E3C79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A30AAF22-FA0C-4F2C-A3F0-695FB3875831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A30AAF22-FA0C-4F2C-A3F0-695FB3875831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A30AAF22-FA0C-4F2C-A3F0-695FB3875831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A30AAF22-FA0C-4F2C-A3F0-695FB3875831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1CCFEEA-37B8-45AA-9E3B-35D332B58E12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1CCFEEA-37B8-45AA-9E3B-35D332B58E12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1CCFEEA-37B8-45AA-9E3B-35D332B58E12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1CCFEEA-37B8-45AA-9E3B-35D332B58E12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE388B8B-3DC5-4B8D-A7AE-0317352A7662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE388B8B-3DC5-4B8D-A7AE-0317352A7662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE388B8B-3DC5-4B8D-A7AE-0317352A7662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE388B8B-3DC5-4B8D-A7AE-0317352A7662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF3C0FCB-54B4-4677-9CF9-9CE1BA544BB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF3C0FCB-54B4-4677-9CF9-9CE1BA544BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF3C0FCB-54B4-4677-9CF9-9CE1BA544BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF3C0FCB-54B4-4677-9CF9-9CE1BA544BB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56EBBF80-D525-457B-9C2B-F3945019C6B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56EBBF80-D525-457B-9C2B-F3945019C6B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56EBBF80-D525-457B-9C2B-F3945019C6B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56EBBF80-D525-457B-9C2B-F3945019C6B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E02296CC-4896-4CE8-8C8D-7900620E3C79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E02296CC-4896-4CE8-8C8D-7900620E3C79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E02296CC-4896-4CE8-8C8D-7900620E3C79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E02296CC-4896-4CE8-8C8D-7900620E3C79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE7963F5-EDE9-4DD8-9592-3D0BB9ED4E9D}
+	EndGlobalSection
+EndGlobal
