@@ -15,3 +15,10 @@ Intervalo de prêmios = { "min": [ { "min":[ { "producer":"Producer 1", "interva
 2. Devem ser implementados somente testes de integração. Eles devem garantir que os dados obtidos estão de acordo com os dados fornecidos na proposta;
 3. O banco de dados deve estar em memória utilizando um SGBD embarcado (por exemplo, H2). Nenhuma instalação externa deve ser necessária;
 4. A aplicação deve conter um readme com instruções para rodar o projeto e os testes de integração. O código-fonte deve ser disponibilizado em um repositório git (Github, Gitlab, Bitbucket, etc).
+
+# Realização dos testes
+Clone o projeto do github
+rode os comandos dotnet restore, dotnet build
+abra a pasta do projeto de teste e rode o comando dotnet test
+Para testar com diferentes arquivos CSV, basta criar ou modificar os arquivos CSV na pasta ../../../CsvFile/
+
